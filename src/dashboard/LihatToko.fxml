@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="528.0" prefWidth="715.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="dashboard.LihatTokoController">
+   <children>
+      <TableView fx:id="table" layoutY="51.0" prefHeight="342.0" prefWidth="715.0">
+        <columns>
+          <TableColumn fx:id="tcNamaToko" prefWidth="156.800048828125" text="Nama Toko" />
+          <TableColumn fx:id="tcAlamat" prefWidth="213.60003662109375" text="Alamat" />
+            <TableColumn fx:id="tcNoTelfon" prefWidth="170.39993286132812" text="No Telfon" />
+            <TableColumn fx:id="tcEmail" prefWidth="173.5999755859375" text="Email" />
+        </columns>
+      </TableView>
+      <Button layoutX="129.0" layoutY="437.0" mnemonicParsing="false" onAction="#removeBthAction" text="Hapus" />
+      <Button layoutX="421.0" layoutY="437.0" mnemonicParsing="false" text="Edit" />
+   </children>
+</AnchorPane>

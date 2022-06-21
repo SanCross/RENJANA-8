@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.FXMLTokoController">
+   <children>
+      <Text fill="#7858a6" layoutX="202.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TAMBAH TOKO LOKAL" wrappingWidth="196.90228271484375">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="tfNamaToko" layoutX="63.0" layoutY="88.0" prefHeight="33.0" prefWidth="474.0" promptText="Nama Toko" style="-fx-background-radius: 12;" />
+      <TextField fx:id="tfAlamat" layoutX="63.0" layoutY="134.0" prefHeight="33.0" prefWidth="474.0" promptText="Alamat" style="-fx-background-radius: 12;" />
+      <TextField fx:id="tfEmail" layoutX="63.0" layoutY="183.0" prefHeight="33.0" prefWidth="474.0" promptText="Email" style="-fx-background-radius: 12;" />
+      <TextField fx:id="tfNoTelfon" layoutX="63.0" layoutY="233.0" prefHeight="33.0" prefWidth="474.0" promptText="No Telefon" style="-fx-background-radius: 12;" />
+      <Button layoutX="251.0" layoutY="276.0" mnemonicParsing="false" style="-fx-background-color: ffffff; -fx-border-color: #7858A6; -fx-border-radius: 12;" text="+ Tambah Foto" />
+      <Button layoutX="270.0" layoutY="314.0" mnemonicParsing="false" onAction="#unggah" style="-fx-background-color: #7858A6;" text="Unggah" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
